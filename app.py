@@ -58,7 +58,7 @@ st.caption("Employee Salary & HR Data Analysis")
 # LOAD DATA
 # =========================
 
-FILE_PATH = (r"C:\Users\saanu\Desktop\Reetu\HR_Salary_Dataset.csv")
+FILE_PATH = ("HR_Salary_Dataset.csv")
 
 try:
     df = pd.read_csv(FILE_PATH)
